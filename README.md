@@ -2,11 +2,11 @@ Welcome to Papela DiscordBaseBot
 =================
 
 
-The Project
+Discord Bot
 ------------
 
 Config,
-- make `.env` file and add TOKEN
+- make `.env` file and add TOKEN with your Discord API token
 
 On the front-end,
 - edit `public/client.js`, `public/style.css` and `views/index.html`
@@ -18,7 +18,7 @@ On the back-end,
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
 
-Made by [Glitch](https://glitch.com/)
+Made by Papela
 -------------------
 
 \ ゜o゜)ノ
