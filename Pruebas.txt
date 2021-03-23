@@ -1,4 +1,4 @@
-//////
+////// Este archivo se puede borrar. Solo se utiliza para pruebas
 
 
 const config = require('./config.json')
