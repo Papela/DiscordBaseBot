@@ -58,7 +58,7 @@ client.on("error", e => console.error(e));
 client.on("warn", e => console.warn(e));
 client.on("debug", e => console.info(e));
 
-  let adminid = "529736520048050189";
+  let adminid = "YOUR DISCORD ID";
   
    if (message.content.startsWith(prefix + "optimizar")) {
      message.channel.bulkDelete(1);
@@ -219,7 +219,7 @@ let youTube = new YouTube();
 //Necesita tener una clave para usar la API de YouTube Data API v3
 //video tutorial: https://www.youtube.com/watch?v=VxQPG991YUs 
 
-youTube.setKey('AIzaSyBD1I5tSmT08Wx9-ir18AczYIP-475y8lk');
+youTube.setKey('YOUR YT API KEY');
 
 
 if(!args.join(" ")) return  message.channel.send('Debe proporcionar algo para buscar');
@@ -636,10 +636,10 @@ google(text, function (err, res) {
         .setAuthor(message.author.username, message.author.avatarURL)
         .addField(
           "**Token** ",
-          "||NTgxNzkzMTA1Mzg1MjI2MjQw.Xffxdg.mZP_8ALoAZpeVvpYOQOW5Cgh9OY||",
+          "||YOUR TOKEN HERE||",
           true
         )
-        .addField("**SecretID**", "||x6zLCfL2_j8MuF7HIffW--CKFyZkI3Ze||", true)
+        .addField("**SecretID**", "||YOUR SECRET ID||", true)
         .addField("**ClientID**", "||581793105385226240||")
         .setFooter(
           "Version 3.0 | NO COMPARTAS ESTOS DATOS CON NADIE | Creado por: @Papela#8062 |",
